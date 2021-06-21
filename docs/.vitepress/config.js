@@ -1,8 +1,8 @@
 module.exports = {
-  title: '💊 Git Pills',
+  title: 'Git Pills',
   description: 'Just playing around with Git.',
   lang: 'en-US',
-
+  base: '/git-pills/',
   themeConfig: {
     repo: 'guidesmiths/git-pills',
     docsDir: 'src',
@@ -18,23 +18,18 @@ module.exports = {
 
 
     nav: [
-      { text: 'Home', link: '/', },
+      { text: 'Home', link: '/', activeMatch: '^/$|^/git-pills/' },
       { text: 'Pills', link: '/pills/', activeMatch: '^/pills/' },
-      // {
-      //   text: 'Config Reference',
-      //   link: '/config/basics',
-      //   activeMatch: '^/config/'
-      // },
-      // {
-      //   text: 'Release Notes',
-      //   link: 'https://github.com/vuejs/vitepress/releases'
-      // }
+      { text: 'How to', link: '/how-to/', activeMatch: '/how-to/' },
     ],
 
     sidebar: {
       '/guide/': getGuideSidebar(),
       '/config/': getConfigSidebar(),
     }
+  },
+  markdown: {
+    lineNumbers: true
   }
 }
 

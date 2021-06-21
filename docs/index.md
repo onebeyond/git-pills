@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo_small.png
 heroAlt: Git Pills logo small
-heroText: Git pills
+heroText: Git pills 💊
 tagline: A collection of short snippets of Git for learning purposes
 actionText: Get Started
 actionLink: /pills/
