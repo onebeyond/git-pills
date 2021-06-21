@@ -72,8 +72,8 @@ function getConfigSidebar() {
       text: 'Theme Config',
       children: [
         { text: 'Homepage', link: '/config/homepage' },
-        { text: 'Algolia Search', link: '/config/algolia-search' },
-        { text: 'Carbon Ads', link: '/config/carbon-ads' }
+        // { text: 'Algolia Search', link: '/config/algolia-search' },
+        // { text: 'Carbon Ads', link: '/config/carbon-ads' }
       ]
     }
   ]
