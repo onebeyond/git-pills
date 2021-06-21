@@ -1,0 +1,15 @@
+{
+  "name": "git-pills",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src"
+  },
+  "repository": "git@github.com:guidesmiths/git-pills.git",
+  "author": "Jorge Baumann <jorge.baumann.aguilar@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^0.15.4"
+  }
+}
