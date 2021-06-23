@@ -5,7 +5,10 @@ sidebar: false
 # Pills
 
 ## Basic
-- [git status](./git-rebase.md)
+
+- [Pill Example](./pill-example.md)
+- [Git status](./git-status.md)
+
 ## Medium
 
 ## Advanced
