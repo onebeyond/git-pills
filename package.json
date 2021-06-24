@@ -7,7 +7,7 @@
     "serve": "vitepress serve docs"
   },
   "repository": "git@github.com:guidesmiths/git-pills.git",
-  "author": "Jorge Baumann <jorge.baumann.aguilar@gmail.com>",
+  "author": "Jorge Baumann <jorge.baumann@guidesmiths.com>",
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^0.15.4"

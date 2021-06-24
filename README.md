@@ -3,6 +3,33 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+## Install
+`yarn`
+
+## Dev
+`yarn dev`
+
+Serve the site in the local server.
+
+
+## Build
+`yarn build`
+
+Command to build the project, placed at `.vitepress/dist`.
+
+## Serve
+### Testing the project locally.
+`yarn serve`
+
+Once you've built the project, you may test them locally by running `yarn serve` command.
+
+```
+$ yarn build
+$ yarn serve
+```
+The serve command will start a local static web server that serves the files from `.vitepress/dist` at http://localhost:5000.  
+It's an easy way to check if the production build looks OK in your local environment.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

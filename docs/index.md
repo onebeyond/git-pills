@@ -1,4 +1,14 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: A collection of short snippets of Git for learning purposes
+  - - meta
+    - name: keywords
+      content: Git Pills
+  - - meta
+    - property: og:image
+      content: https://raw.githubusercontent.com/guidesmiths/git-pills/main/logos/logo_large.png
 home: true
 heroImage: /logo_small.png
 heroAlt: Git Pills logo small
