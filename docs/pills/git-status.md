@@ -18,10 +18,10 @@ Untracked files:
       docs/pills/git-status.md
 ```
 
-###  `git status -v` 
+###  `git status -v | --verbose` 
 Shows the textual changes that are staged and will be commited
 
-###  `git status -s`
+###  `git status -s | --short`
 Shows the info with a short format
 
 ```bash
@@ -56,9 +56,9 @@ Here we can see:
 
 ###  `git status -u[mode] | --untracked-files[mode]`
 Allow us to select if we want to show untracked files, the `mode` options are:
-- `no`: Only shows tracked files
-- `normal`: Shows untacked files and directories
-- `all`: Shows individual files in untracked directories
+- `no`: only shows tracked files
+- `normal`: shows untacked files and directories
+- `all`: shows individual files in untracked directories
 
 ```bash
 > git status -uall
