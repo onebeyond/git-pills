@@ -1,1 +1,0 @@
-import{o as e,c as r,a as t}from"./app.205184e6.js";const o='{"title":"How to create a pill","description":"","frontmatter":{},"headers":[{"level":2,"title":"Vitepress","slug":"vitepress"}],"relativePath":"how-to/index.md","lastUpdated":1624528793228}',a={},i=t('',6);a.render=function(t,o,a,l,s,n){return e(),r("div",null,[i])};export default a;export{o as __pageData};
