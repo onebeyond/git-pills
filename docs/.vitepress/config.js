@@ -5,8 +5,8 @@ module.exports = {
   base: '/git-pills/',
   themeConfig: {
     repo: 'guidesmiths/git-pills',
-    docsDir: 'src',
-
+    docsDir: 'docs',
+    docsBranch: 'main',
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
